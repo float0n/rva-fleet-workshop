@@ -110,3 +110,7 @@ software:
   packages:
   - path: ../platforms/windows/software/cloudflware-warp.yml
     self_service: false
+  
+  fleet_maintained_apps:
+    - slug: discord/darwin
+      self_service: true
