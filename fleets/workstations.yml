@@ -208,3 +208,9 @@ labels:
   description: Hosts enrolled in beta program
   label_membership_type: manual
   hosts: 
+settings:
+  webhook_settings:
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://webhook.site/19851f89-914d-44e4-b5a3-ac36663c58ee
+      host_batch_size: 0
